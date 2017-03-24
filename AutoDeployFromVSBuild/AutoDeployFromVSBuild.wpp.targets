@@ -3,7 +3,7 @@
   <PropertyGroup>
     <AutoDeployOnVSBuild>true</AutoDeployOnVSBuild>
     <!--<AutoDeployOnVSBuild>false</AutoDeployOnVSBuild>-->
-    <AutoDeployPublishProfileName>LocalIIS</AutoDeployPublishProfileName>
+    <AutoDeployPublishProfileName>LocalFile</AutoDeployPublishProfileName>
   </PropertyGroup>
   <Target Name="AfterBuild">    
     <MSBuild 
